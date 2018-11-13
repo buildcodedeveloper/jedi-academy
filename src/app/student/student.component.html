@@ -1,6 +1,6 @@
 <div *ngIf="student">
 
-  Student: {{student?.name}}
+  Student: <a (click)="clicked">{{student?.name}}</a>
 
   <div *ngIf="student?.isJedi">
     Jedi Temple: {{student?.temple}}
